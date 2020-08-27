@@ -3,7 +3,7 @@ import {FiShoppingCart} from 'react-icons/fi';
 import {MdAddCircleOutline, MdRemoveCircleOutline} from 'react-icons/md';
 import { connect } from 'react-redux';
 import {getBasketTotal} from '../selectors/basketSelectors';
-import {itemIncrement, clearBasket, startSubmitOrder} from '../actions/basketActions';
+import {clearBasket, startSubmitOrder} from '../actions/basketActions';
 import numeral from 'numeral';
 import numeralConfig from '../utils/numeralConfig';
 numeral.register('locale', 'fr', numeralConfig);
@@ -29,7 +29,6 @@ const Basket = ({basketItems, total, startSubmitOrder, clearBasket})=>{
     <div className="basket-cont">
         <div className="total-section">
             <div><FiShoppingCart /></div>
-            {/* <div>Total: {numeral(total || 22).format('$0.00')}</div> */}
             <div>Total: {numeral(total).format('$0.00')}</div>
         </div>
         {/* If Basket is Empty */}

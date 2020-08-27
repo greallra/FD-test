@@ -1,15 +1,12 @@
 {
-  "name": "task-app-frontend",
+  "name": "fd-test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server",
-    "test": "jest --watchAll",
     "build:dev": "webpack",
-    "prod": "webpack -p",
-    "start": "node server/server.js",
-    "heroku-postbuild": "yarn run build:prod"
+    "prod": "webpack -p"
   },
   "author": "",
   "license": "ISC",
