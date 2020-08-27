@@ -1,0 +1,36 @@
+//colors
+$dark: #191919;
+$white: #fff;
+$background: #fff;
+$green: #2ecc71;
+$red: #e74c3c;
+$red-light: lighten(#e74c3c, 40%);
+$blue: #3498db;
+$border: 1px solid #d3d3d3;
+
+
+body {
+    font-family: 'Lemonada', cursive;
+    color: $dark;
+  }
+a {
+    // color: $white;
+    text-decoration: none;
+    list-style-type: none;
+}
+p {
+    font-size: 12px;
+}
+li {
+    list-style-type: none;
+}
+#App {
+    background-color: $background;
+    min-height: 100%;
+    width: 100%;
+}
+
+.hide {
+    visibility: hidden;
+}
+

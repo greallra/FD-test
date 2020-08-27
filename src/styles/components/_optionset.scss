@@ -1,0 +1,20 @@
+.optionSet_cont {
+    max-width:500px;
+    margin: 10px auto;
+    .optionSetItem_cont {
+       
+        border: $border;
+        padding: 10px;
+        margin: 10px 0;
+        display: flex;
+        align-items: center;
+        label {
+            padding-right: 4px;
+        }
+        input[type=radio] {
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}

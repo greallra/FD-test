@@ -1,0 +1,19 @@
+nav {
+    background: $red;
+ 
+    border-bottom: $border;
+    ul {
+        padding:0;
+        margin:0;
+        display: flex;
+        justify-content: center;
+        li {   
+            a {
+                display: block;
+                margin: 10px;
+                color: $white;
+            }
+        }
+    }
+   
+}
